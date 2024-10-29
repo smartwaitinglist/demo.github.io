@@ -1,0 +1,211 @@
+/* Centra gli header */
+.ag-header-cell.center-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFE081;
+    color: #00194C;
+    font-weight: bold;
+    font-family: 'Roboto';
+    padding: 8px;
+    border-bottom: 3px solid #0F2471;
+    border-top: 3px solid #0F2471;
+
+}
+
+
+#download-image-popup {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+
+/* Centra i checkbox */
+.ag-cell-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.outer-container {
+    padding: 20px;
+    border: 2px dashed #0000ff;
+}
+
+.main-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.status-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.status-column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+
+.status-table {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.status-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.status-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.urgent {
+    background-color: #0000ff;
+}
+
+.breve {
+    background-color: #1e90ff;
+}
+
+.differibile {
+    background-color: #87cefa;
+}
+
+.programmata {
+    background-color: #b0c4de;
+}
+
+.ag-header-cell {
+    background-color: #FFE081; /* Imposta il colore di sfondo */
+    color: #00194C; /* Imposta il colore del testo in rosso */
+    font-weight: bold; /* Imposta il tipo di carattere in grassetto */
+    font-family: 'Roboto';
+    padding: 8px; /* Aggiunge spaziatura interna */
+    /*border-bottom: 2px solid #11d3ff;
+    border-top: 2px solid #11d3ff ;*/
+    text-align: center !important;
+    min-width: 130px
+    
+}
+
+.ag-header-cell-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+/* Targeting AG Grid cell contents */
+.ag-cell {
+    display: flex;
+    align-items: center;  /* Vertically center */
+    justify-content: center;  /* Horizontally center */
+    text-align: center;  /* Center text within the cell */
+    height: 100%;  /* Ensure the element takes up the full height of its container */
+    background-color: #ECF2FE;
+}
+
+.custom-tab .tab-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: #00338D;
+    background-color: #ECF2FE;
+}
+
+.custom-tab--selected {
+    font-weight: bold;
+    
+   
+}
+
+.table-header {
+    border-bottom: none;
+}
+
+.table-cell {
+    border-bottom: none !important;
+}
+
+.table-cell.urgent {
+    border-bottom: none !important;
+}
+
+.table-cell.short {
+    border-bottom: none !important;
+}
+
+.table-cell.deferable {
+    border-bottom: none !important;
+}
+
+.table-cell.planned {
+    border-bottom: none !important;
+}
+/* Stile per il dropdown */
+.custom-dropdown .Select-menu-outer {
+    max-width: 600px; /* Cambia questa dimensione secondo necessità Diletta */ 
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow-x: hidden;
+}
+
+.custom-dropdown .Select-option {
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow-x: hidden;
+}
+
+.custom-dropdown .Select-control {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 30px; /* Aumenta l'altezza della barra */
+    font-size: 16px; /* Aumenta la dimensione del testo */
+    padding: 1px; /* Aggiungi padding per rendere il testo più leggibile */
+}
+
+/* Forza la larghezza minima delle opzioni */
+.custom-dropdown .Select-option {
+    min-width: 300px; /* Cambia questa dimensione secondo necessità */
+}
+
+.ag-cell {
+            min-width: 130px;
+        }
+.ag-center-cols-clipper {
+            min-height: unset !important;
+        }
+.spanned-row {
+            background-color: #F0F6FF;
+            border-bottom: 2px solid #11d3ff;
+}
+.op-row{
+    color: #F0F6FF;
+}
+.important-value {
+    color: red;
+  }
